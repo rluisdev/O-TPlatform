@@ -1,0 +1,23 @@
+div {
+  @apply border-secondary-light;
+}
+
+.trading-chart {
+  @apply w-full h-2/3 border-b flex flex-col;
+}
+
+.trading-chart-header {
+  @apply flex justify-between items-center px-8 py-3 border-b;
+}
+
+.trading-chart-header .selected {
+  @apply text-warning;
+}
+
+.trading-chart-header span {
+  @apply cursor-pointer;
+}
+
+.trading-chart-body {
+  @apply w-full flex-grow flex justify-between items-center;
+}

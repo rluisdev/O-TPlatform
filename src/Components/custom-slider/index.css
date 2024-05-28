@@ -1,0 +1,7 @@
+.rc-slider-rail {
+  @apply bg-secondary-normal h-1;
+}
+
+.rc-slider-step {
+  @apply bg-secondary-light;
+}
